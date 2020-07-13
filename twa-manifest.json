@@ -1,0 +1,24 @@
+{
+  "packageId": "io.auralite.mobile",
+  "host": "auralite.io",
+  "name": "Auralite",
+  "launcherName": "Auralite",
+  "themeColor": "#6875F5",
+  "navigationColor": "#000000",
+  "backgroundColor": "#6875F5",
+  "enableNotifications": true,
+  "startUrl": "/home",
+  "iconUrl": "https://auralite.io/img/icons/android-chrome-512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "alias": "my-key-alias",
+    "path": "./android.keystore"
+  },
+  "appVersionName": "1.0.3",
+  "appVersionCode": 4,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://auralite.io/img/icons/site.webmanifest",
+  "fallbackType": "customtabs",
+  "appVersion": "1.0.3"
+}
