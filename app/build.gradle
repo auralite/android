@@ -35,7 +35,7 @@ def twaManifest = [
     // - icon: Name of the resource in the drawable folder to use as an icon.
     shortcuts: [],
     // The duration of fade out animation in milliseconds to be played when removing splash screen.
-    splashScreenFadeOutDuration: 300,
+    splashScreenFadeOutDuration: 100,
     generatorApp: 'bubblewrap-cli', // Application that generated the Android Project
     // The fallback strategy for when Trusted Web Activity is not avilable. Possible values are
     // 'customtabs' and 'webview'.
@@ -48,8 +48,8 @@ android {
         applicationId "io.auralite.mobile"
         minSdkVersion 19
         targetSdkVersion 29
-        versionCode 4
-        versionName "1.0.3"
+        versionCode 5
+        versionName "1.0.4"
 
         // The name for the application
         resValue "string", "appName", twaManifest.name

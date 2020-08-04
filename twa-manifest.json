@@ -9,16 +9,16 @@
   "enableNotifications": true,
   "startUrl": "/home",
   "iconUrl": "https://auralite.io/img/icons/android-chrome-512x512.png",
-  "splashScreenFadeOutDuration": 300,
+  "splashScreenFadeOutDuration": 100,
   "signingKey": {
     "alias": "my-key-alias",
     "path": "./android.keystore"
   },
-  "appVersionName": "1.0.3",
-  "appVersionCode": 4,
+  "appVersionName": "1.0.4",
+  "appVersionCode": 5,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://auralite.io/img/icons/site.webmanifest",
   "fallbackType": "customtabs",
-  "appVersion": "1.0.3"
+  "appVersion": "1.0.4"
 }
